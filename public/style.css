@@ -1,0 +1,68 @@
+.title{
+  text-align: center;
+  padding: 1rem;
+}
+
+div{
+  text-align: center;
+}
+
+.buttons__container {
+  display: flex;
+}
+
+.buttons__container form {
+  margin-right: 0.5rem;
+}
+
+.task{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 1rem
+}
+
+.alert {
+  color: red;
+  display: none;
+}
+
+.alert.visible {
+  display: block;
+}
+
+.add-task__button {
+  margin-top: 1rem;
+}
+
+.topnav {
+  background-color: #99ccff;
+  overflow: hidden;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.topnav a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 1rem;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.task__container {
+  justify-content: space-between;
+  margin: 2rem auto;
+  min-width: 50%;
+  width: fit-content;
+}
